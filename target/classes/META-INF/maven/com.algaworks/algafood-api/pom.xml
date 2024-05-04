@@ -48,12 +48,6 @@
 			<optional>true</optional>
 		</dependency>
 
-		<!-- XML -->
-		<dependency>
-			<groupId>com.fasterxml.jackson.dataformat</groupId>
-			<artifactId>jackson-dataformat-xml</artifactId>
-		</dependency>
-
 		<!-- Banco de dados e JPA -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
