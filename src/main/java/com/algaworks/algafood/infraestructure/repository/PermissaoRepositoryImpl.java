@@ -4,11 +4,14 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 
+import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.algaworks.algafood.domain.model.Permissao;
 import com.algaworks.algafood.domain.repository.PermissaoRepository;
 
+
+@Repository
 public class PermissaoRepositoryImpl implements PermissaoRepository {
 	
 	private EntityManager manager;
