@@ -18,6 +18,8 @@ public interface CozinhaRepository extends JpaRepository<Cozinha, Long> {
 	
 	//https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html (keywords de exemplos)
 	
+	boolean existsByNome(String nome);
+	
 
 
 }
